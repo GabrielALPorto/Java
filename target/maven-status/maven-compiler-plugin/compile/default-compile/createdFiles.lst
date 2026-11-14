@@ -1,0 +1,5 @@
+com/gerenmedicamentos/controlemedicamentos/ControleMedicamentosApplication.class
+com/gerenmedicamentos/controlemedicamentos/service/MedicamentoService.class
+com/gerenmedicamentos/controlemedicamentos/dto/MedicamentoDTO.class
+com/gerenmedicamentos/controlemedicamentos/model/Medicamento.class
+com/gerenmedicamentos/controlemedicamentos/controller/MedicamentoController.class
