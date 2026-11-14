@@ -2,6 +2,7 @@ package com.gerenmedicamentos.controlemedicamentos.service;
 
 import com.gerenmedicamentos.controlemedicamentos.dto.MedicamentoDTO;
 import com.gerenmedicamentos.controlemedicamentos.model.Medicamento;
+import com.gerenmedicamentos.controlemedicamentos.exception.RegraDeNegocioException;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class MedicamentoService {
                         && m.getDosagem().equalsIgnoreCase(dto.dosagem()));
 
         if (jaExiste) {
-            throw new RuntimeException("Já existe um medicamento com esse nome e dosagem.");
+            throw new RegraDeNegocioException("Já existe um medicamento com esse nome e dosagem.");
         }
 
         // Pegando os dados do DTO e criando a Entidade

@@ -1,5 +1,7 @@
 com/gerenmedicamentos/controlemedicamentos/ControleMedicamentosApplication.class
-com/gerenmedicamentos/controlemedicamentos/service/MedicamentoService.class
-com/gerenmedicamentos/controlemedicamentos/dto/MedicamentoDTO.class
 com/gerenmedicamentos/controlemedicamentos/model/Medicamento.class
+com/gerenmedicamentos/controlemedicamentos/controller/GlobalExceptionHandler.class
+com/gerenmedicamentos/controlemedicamentos/service/MedicamentoService.class
+com/gerenmedicamentos/controlemedicamentos/exception/RegraDeNegocioException.class
+com/gerenmedicamentos/controlemedicamentos/dto/MedicamentoDTO.class
 com/gerenmedicamentos/controlemedicamentos/controller/MedicamentoController.class
