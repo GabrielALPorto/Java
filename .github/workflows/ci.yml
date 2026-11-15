@@ -1,0 +1,25 @@
+name: Java CI Pipeline
+
+on:
+  push:
+    branches: [ "main", "feature/finalizacao-mvp" ] # Roda quando você faz push nessas branches
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v4
+
+    - name: Configurar o JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+
+    - name: Compilar e rodar testes unitários
+      run: mvn clean test
