@@ -1,7 +1,0 @@
-/home/gabriel/Documentos/cruzeiro_do_sul/Java/src/main/java/com/gerenmedicamentos/controlemedicamentos/ControleMedicamentosApplication.java
-/home/gabriel/Documentos/cruzeiro_do_sul/Java/src/main/java/com/gerenmedicamentos/controlemedicamentos/controller/GlobalExceptionHandler.java
-/home/gabriel/Documentos/cruzeiro_do_sul/Java/src/main/java/com/gerenmedicamentos/controlemedicamentos/controller/MedicamentoController.java
-/home/gabriel/Documentos/cruzeiro_do_sul/Java/src/main/java/com/gerenmedicamentos/controlemedicamentos/dto/MedicamentoDTO.java
-/home/gabriel/Documentos/cruzeiro_do_sul/Java/src/main/java/com/gerenmedicamentos/controlemedicamentos/exception/RegraDeNegocioException.java
-/home/gabriel/Documentos/cruzeiro_do_sul/Java/src/main/java/com/gerenmedicamentos/controlemedicamentos/model/Medicamento.java
-/home/gabriel/Documentos/cruzeiro_do_sul/Java/src/main/java/com/gerenmedicamentos/controlemedicamentos/service/MedicamentoService.java
